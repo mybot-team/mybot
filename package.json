@@ -1,0 +1,27 @@
+{
+  "name": "mybot",
+  "version": "1.0.0",
+  "description": "Bot creado por miembros de MyBOT Team.",
+  "scripts": {
+    "dev": "nodemon ./src/app/index.js",
+    "start": "node ./src/app/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mybot-team/mybot.git"
+  },
+  "keywords": [],
+  "author": "mybot-team",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mybot-team/mybot/issues"
+  },
+  "homepage": "https://github.com/mybot-team/mybot#readme",
+  "dependencies": {
+    "discord.js": "^12.5.1",
+    "dotenv": "^8.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
